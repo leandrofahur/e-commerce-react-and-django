@@ -1,7 +1,15 @@
+// custom components:
+import Header from "@/components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
-      <h1>React App</h1>
+      <Header />
+      <main className="h-screen">
+        <h1 className="flex justify-center text-3xl font-bold">Welcome</h1>
+      </main>
+      <Footer />
     </>
   );
 }
