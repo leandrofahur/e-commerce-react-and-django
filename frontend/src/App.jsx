@@ -11,7 +11,7 @@ import Login from "@/pages/Login";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
