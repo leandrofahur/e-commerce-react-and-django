@@ -1,5 +1,6 @@
-// Shadcn components:
+import { Link } from "react-router-dom";
 
+// Shadcn components:
 import { Button } from "../ui/button";
 
 import {
@@ -9,58 +10,35 @@ import {
   NavigationMenuList,
 } from "../ui/navigation-menu";
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-
 // third-party libraries
 import { PuzzleIcon } from "lucide-react";
 import { ShoppingBagIcon } from "lucide-react";
 import { UserCircle2Icon } from "lucide-react";
 
+const linkStyles = "flex gap-2 text-white hover:opacity-75";
+
 function Header() {
   return (
-    <header className="flex justify-between items-center p-3 max-w-full bg-teal-900">
-      <h1 className="flex text-xxl gap-3 font-bold text-white ">
-        <PuzzleIcon />
-        RDJ-Comm
-      </h1>
+    <header className="flex justify-between items-center p-8 max-w-full bg-teal-900">
+      <Link to="/">
+        <h1 className={linkStyles}>
+          <PuzzleIcon />
+          RDJ-Comm
+        </h1>
+      </Link>
       <NavigationMenu>
         <NavigationMenuList className="flex gap-4">
           <NavigationMenuItem>
-            <NavigationMenuLink>
-              <Button variant="link" className="flex gap-2 text-white">
+            <NavigationMenuLink asChild>
+              <Link to="/cart" className={linkStyles}>
                 <ShoppingBagIcon /> Cart
-              </Button>
+              </Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="link" className="flex gap-2 text-white">
-                  <UserCircle2Icon /> Login
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56">
-                <DropdownMenuItem>Configurations</DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>Logout</DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-            {/* <NavigationMenuLink className="flex gap-2 text-white">
-              <UserCircle2Icon /> Logout
-            </NavigationMenuLink> */}
+            <Link to="/login" className={linkStyles}>
+              <UserCircle2Icon /> Login
+            </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
