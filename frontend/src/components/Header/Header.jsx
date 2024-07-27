@@ -21,7 +21,7 @@ function Header() {
       <Link to="/">
         <h1 className={linkStyles}>
           <PuzzleIcon />
-          RDJ-Comm
+          RDJ-Style
         </h1>
       </Link>
       <NavigationMenu>
