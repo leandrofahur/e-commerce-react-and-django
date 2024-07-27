@@ -15,7 +15,7 @@ import { PuzzleIcon } from "lucide-react";
 import { ShoppingBagIcon } from "lucide-react";
 import { UserCircle2Icon } from "lucide-react";
 
-const linkStyles = "flex gap-2 text-white hover:opacity-75";
+const linkStyles = "flex gap-2 text-white hover:opacity-75 active:opacity-10";
 
 function Header() {
   return (

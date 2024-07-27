@@ -11,15 +11,17 @@ import Login from "@/pages/Login";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <main className="h-[calc(100vh-88px-48px)]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
