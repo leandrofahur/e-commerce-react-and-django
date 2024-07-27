@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 // Shadcn components:
-import { Button } from "../ui/button";
-
 import {
   NavigationMenu,
   NavigationMenuItem,
