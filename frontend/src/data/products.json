@@ -1,0 +1,107 @@
+[
+  {
+    "name": "shoe-1",
+    "image": "../assets/images/shoes/shoe-1.webp",
+    "price": "$204.00"
+  },
+  {
+    "name": "shoe-2",
+    "image": "../assets/images/shoes/shoe-2.webp",
+    "price": "$115.00"
+  },
+  {
+    "name": "shoe-3",
+    "image": "../assets/images/shoes/shoe-3.webp",
+    "price": "$172.00"
+  },
+  {
+    "name": "shoe-4",
+    "image": "../assets/images/shoes/shoe-4.webp",
+    "price": "$136.00"
+  },
+  {
+    "name": "shoe-5",
+    "image": "../assets/images/shoes/shoe-5.webp",
+    "price": "$187.00"
+  },
+  {
+    "name": "shoe-6",
+    "image": "../assets/images/shoes/shoe-6.webp",
+    "price": "$223.00"
+  },
+  {
+    "name": "shoe-7",
+    "image": "../assets/images/shoes/shoe-7.webp",
+    "price": "$148.00"
+  },
+  {
+    "name": "shoe-8",
+    "image": "../assets/images/shoes/shoe-8.webp",
+    "price": "$107.00"
+  },
+  {
+    "name": "shoe-9",
+    "image": "../assets/images/shoes/shoe-9.webp",
+    "price": "$197.00"
+  },
+  {
+    "name": "shoe-10",
+    "image": "../assets/images/shoes/shoe-10.webp",
+    "price": "$142.00"
+  },
+  {
+    "name": "shoe-11",
+    "image": "../assets/images/shoes/shoe-11.webp",
+    "price": "$124.00"
+  },
+  {
+    "name": "shoe-12",
+    "image": "../assets/images/shoes/shoe-12.webp",
+    "price": "$238.00"
+  },
+  {
+    "name": "shoe-13",
+    "image": "../assets/images/shoes/shoe-13.webp",
+    "price": "$91.00"
+  },
+  {
+    "name": "shoe-14",
+    "image": "../assets/images/shoes/shoe-14.webp",
+    "price": "$118.00"
+  },
+  {
+    "name": "shoe-15",
+    "image": "../assets/images/shoes/shoe-15.webp",
+    "price": "$175.00"
+  },
+  {
+    "name": "shoe-16",
+    "image": "../assets/images/shoes/shoe-16.webp",
+    "price": "$192.00"
+  },
+  {
+    "name": "shoe-17",
+    "image": "../assets/images/shoes/shoe-17.webp",
+    "price": "$95.00"
+  },
+  {
+    "name": "shoe-18",
+    "image": "../assets/images/shoes/shoe-18.webp",
+    "price": "$139.00"
+  },
+  {
+    "name": "shoe-19",
+    "image": "../assets/images/shoes/shoe-19.webp",
+    "price": "$217.00"
+  },
+  {
+    "name": "shoe-20",
+    "image": "../assets/images/shoes/shoe-20.webp",
+    "price": "$88.00"
+  },
+  {
+    "name": "shoe-21",
+    "image": "../assets/images/shoes/shoe-21.webp",
+    "price": "$214.00"
+  }
+]
